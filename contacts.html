@@ -60,6 +60,23 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+      function onSubmit(token) {
+        document.getElementById("contactForm").submit();
+        window.location='send';
+      }
+    </script>
+    <!-- ===========================
+     GOOGLE ANALYTICS (Optional)
+     =========================== -->
+
+    <!--Replace this line with your analytics code-->
+
+    <!-- Analytics end-->
+
+
+
 	</head>
 	<body>
 <div class="preloader">
@@ -130,40 +147,46 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 							<div class="fh5co-spacer fh5co-spacer-xs"></div>
 						</div>
 						<div class="col-md-8 col-md-offset-2">
-							<form action="#" method="post">
+							<script type="text/javascript">var submitted=false;</script>
+                   			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                            onload="if(submitted)  {window.location='send';}"></iframe>
+							<form role="form" id="contactForm"
+                          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe2rq8asGiRAe7sL2D4w-U8LHMGc3yvfcfhfo6vb4HZ-vuO4g/formResponse"
+                          method="post" target="hidden_iframe"
+                          onsubmit="submitted=true;">
 								<div class="col-md-6">
 									<div class="form-group">
 										<label for="name" class="sr-only">Name</label>
-										<input placeholder="Ім'я" id="name" type="text" class="form-control input-lg">
+										<input name="entry.1927503375" placeholder="Ім'я" id="name" type="text" class="form-control input-lg">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
 										<label for="email" class="sr-only">Email</label>
-										<input placeholder="Контактний номер" id="phone" type="text" class="form-control input-lg">
+										<input name="entry.1396130132" placeholder="Контактний номер" id="phone" type="text" class="form-control input-lg">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
 										<label for="email" class="sr-only">Email</label>
-										<input placeholder="Пошта" id="email" type="text" class="form-control input-lg">
+										<input name="entry.675254393" placeholder="Пошта" id="email" type="text" class="form-control input-lg">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
 										<label for="message" class="sr-only">Повідомлення</label>
-										<textarea placeholder="Повідомлення" id="message" class="form-control input-lg" rows="3"></textarea>
+										<textarea name="entry.1574905560" placeholder="Повідомлення" id="message" class="form-control input-lg" rows="3"></textarea>
 									</div>
+									<p class="grecaptcha-text" align="center">This site is protected by reCAPTCHA and the Google
+                            <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+										<a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="submit" class="btn btn-primary btn-md" value="Надіслати">
-
-										<input type="reset" class="btn btn-outline btn-md" value="Скинути">
+										<button style="margin-top: -120px" data-badge="inline" id="form-submit" type="submit" class="btn btn-primary btn-md g-recaptcha"  data-sitekey="6Lc0rGgaAAAAAIXi5tgQVHK90VT2YDPfmC27Gryz" data-callback='onSubmit'>Надіслати</button>
+										<input style="margin-top: -120px" type="reset" class="btn btn-outline btn-md" value="Скинути">
 									</div>
 								</div>
-
-
 							</form>
 						</div>
 
@@ -171,6 +194,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 
 				</div>
 				<!-- Form -->
+
 			<div class="fh5co-spacer fh5co-spacer-sm"></div>
 
 		</main>
