@@ -234,10 +234,12 @@ pre {
 }
 #fh5co-main-nav ul > li {
   padding: 0;
-  margin: 0 0 7px 0;
+  margin: 0 0 15px 0;
   list-style: none;
   display: inline-block;
 }
+
+
 #fh5co-main-nav ul > li.fh5co-active a {
   color: #7c7c7c;
   border-bottom: 2px solid #1d2dfd;
@@ -275,6 +277,7 @@ pre {
   #fh5co-main-nav .fh5co-nav-call-to-action {
     position: relative;
     top: 0px;
+    padding-top: 10px;
     text-align: right;
     display: inline-block;
     float: right;
