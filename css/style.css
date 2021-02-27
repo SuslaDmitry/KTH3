@@ -17,17 +17,17 @@ body {
 
 ::-webkit-selection {
   color: #ffffff;
-  background: #1d2dfd;
+  background: #006cff;
 }
 
 ::-moz-selection {
   color: #ffffff;
-  background: #1d2dfd;
+  background: #006cff;
 }
 
 ::selection {
   color: #ffffff;
-  background: #1d2dfd;
+  background: #006cff;
 }
 
 a {
@@ -36,17 +36,17 @@ a {
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  color: #1d2dfd;
+  color: #006cff;
   border-bottom: 2px solid transparent;
 }
 a:hover, a:active, a:focus {
-  color: #1d2dfd;
+  color: #006cff;
   outline: none;
   text-decoration: none;
 }
 a:hover {
   color: #7b7b7b;
-  border-bottom: 2px solid #1d2dfd;
+  border-bottom: 2px solid #006cff;
 }
 
 figure.fh5co-with-caption {
@@ -196,6 +196,7 @@ pre {
 #fh5co-main-nav {
   position: relative;
   margin-top: 24px;
+  padding-top: 30px;
 }
 #fh5co-main-nav #fh5co-nav {
   position: relative;
@@ -242,7 +243,7 @@ pre {
 
 #fh5co-main-nav ul > li.fh5co-active a {
   color: #7c7c7c;
-  border-bottom: 2px solid #1d2dfd;
+  border-bottom: 2px solid #006cff;
 }
 #fh5co-main-nav ul > li:last-child {
   margin: 0;
@@ -265,7 +266,7 @@ pre {
 }
 #fh5co-main-nav ul > li > a:hover, #fh5co-main-nav ul > li > a:active, #fh5co-main-nav ul > li > a:focus {
   color: #7c7c7c;
-  border-bottom: 2px solid #1d2dfd;
+  border-bottom: 2px solid #006cff;
 }
 #fh5co-main-nav .fh5co-nav-call-to-action {
   position: absolute;
@@ -697,12 +698,12 @@ pre {
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 2px solid #1d2dfd;
+  border: 2px solid #006cff;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: none;
-  border: 2px solid #1d2dfd;
+  border: 2px solid #006cff;
 }
 
 .quote {
@@ -780,8 +781,8 @@ pre {
 }
 
 .btn-primary {
-  background: #1d2dfd;
-  border: 2px solid #1d2dfd;
+  background: #006cff;
+  border: 2px solid #006cff;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
   background: #0213f4;
@@ -834,7 +835,7 @@ pre {
 .form-control:hover, .form-control:focus, .form-control:active {
   outline: none;
   box-shadow: none !important;
-  border: 2px solid #1d2dfd;
+  border: 2px solid #006cff;
 }
 
 .fh5co-spacer {
@@ -919,7 +920,7 @@ pre {
   left: 0;
   width: 30px;
   height: 2px;
-  background: #1d2dfd;
+  background: #006cff;
 }
 
 .form-group {
@@ -931,10 +932,11 @@ pre {
 }
 
 .fh5co-call-to-action {
-  background-color: #1d2dfd;
+  background-color: #006cff;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  z-index: 1;
 }
 .fh5co-call-to-action h3 {
   color: #ffffff !important;
@@ -984,7 +986,7 @@ pre {
   cursor: pointer;
 }
 .fh5co-accordion .panel-heading .accordion-toggle {
-  color: #1d2dfd;
+  color: #006cff;
 }
 .fh5co-accordion .panel-heading .accordion-toggle:after {
   font-family: 'themify';
@@ -1042,7 +1044,7 @@ pre {
   border-radius: 30px;
 }
 .progress-bar.progress-bar-default {
-  background: #1d2dfd;
+  background: #006cff;
 }
 .progress-bar.progress-bar-success {
   background: #00e195;
@@ -1142,7 +1144,7 @@ a > img.fh5co-align-center {
 }
 
 .resp-tab-active {
-  color: #1d2dfd;
+  color: #006cff;
 }
 
 .resp-tabs-list li {
@@ -1163,6 +1165,9 @@ a > img.fh5co-align-center {
   .fh5co-tab-menu-icon {
     margin-top: 0px;
   }
+  .fh5co-tab {
+  padding-left: 5px;
+}
 }
 
 /* Pricing Tables */
@@ -1189,7 +1194,7 @@ a > img.fh5co-align-center {
   padding: 1em 2em;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading {
-  background: #1d2dfd;
+  background: #006cff;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading h3 {
   font-size: 70px;
@@ -1213,7 +1218,7 @@ a > img.fh5co-align-center {
   text-transform: uppercase;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item.fh5co-best-offer .fh5co-pricing-table-item-heading {
-  background: #1d2dfd;
+  background: #006cff;
   color: #ffffff;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-body {
@@ -1230,7 +1235,7 @@ a > img.fh5co-align-center {
   margin: 0 0 10px 0;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item.fh5co-best-offer .fh5co-pricing-table-item-body {
-  border: 2px solid #1d2dfd;
+  border: 2px solid #006cff;
   border-top: none;
 }
 
@@ -1430,6 +1435,14 @@ a > img.fh5co-align-center {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+   }
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .fh5co-call-to-action {
+margin-left: 75px;
+margin-right: 75px;
+}
+
 }
 @media (min-width: 1200px) {
   .timeline > li {
@@ -1569,3 +1582,45 @@ font-size: 0.57em;
 margin-top: -15px;
 line-height: 2 ;
 }
+
+
+body {
+background-image: url(../images/back.png);
+background-size: 100%;
+background-repeat: repeat-y, repeat-y;
+position: relative;
+z-index: 555;
+}
+
+@media only screen and (max-width: 500px) {
+body {
+background-image: url(../images/back-mini.png);
+background-size: 100%;
+background-repeat: repeat-y, repeat-y;
+position: relative;
+z-index: 555;
+}
+}
+
+@media only screen and (max-width: 810px) {
+body {
+background-image: url(../images/back-mini2.png);
+background-size: 100%;
+background-repeat: repeat-y, repeat-y;
+position: relative;
+z-index: 555;
+}
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 810px) {
+body {
+background-image: url(../images/back-mobile.png);
+background-size: 100%;
+background-repeat: repeat-y, repeat-y;
+position: relative;
+z-index: 555;
+}
+}
+
+
+
