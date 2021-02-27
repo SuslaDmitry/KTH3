@@ -294,15 +294,21 @@ pre {
   }
 }
 #fh5co-intro h1 {
-  font-size: 72px;
   color: #000000;
   line-height: 1.2;
 }
 @media screen and (max-width: 768px) {
   #fh5co-intro h1 {
-    font-size: 40px;
+    font-size: 35px;
+  }
+  }
+
+@media screen and (max-width: 350px) {
+  #fh5co-intro h1 {
+    font-size: 35px;
   }
 }
+
 #fh5co-intro .fh5co-intro-sub {
   margin: 2em 0;
 }
@@ -723,7 +729,23 @@ pre {
     font-size: 20px;
     width: 100%;
   }
+
+.container {
+padding-left: 30px;
 }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 810px) {
+.container {
+padding-left: 105px;
+}
+}
+@media screen and (max-width: 810px) and (min-width: 470px) {
+.container {
+padding-left: 60px;
+}
+}
+
 
 #map {
   width: 100%;
@@ -889,6 +911,11 @@ pre {
   .fh5co-spacer-xs {
     height: 20px;
   }
+
+.fh5co-tab .fh5co-tab-menu-icon {
+  line-height: 3 !important;
+  font-size: 105%;
+}
 }
 
 .fh5co-spacer-xxs {
@@ -1141,7 +1168,9 @@ a > img.fh5co-align-center {
 
 .fh5co-tab h2 {
   line-height: 3 !important;
+  font-size: 95%;
 }
+
 
 .resp-tab-active {
   color: #006cff;
@@ -1149,11 +1178,14 @@ a > img.fh5co-align-center {
 
 .resp-tabs-list li {
   font-family: "PT Mono", sans-serif;
+  font-size: 1.1em;
 }
 
 .resp-content-active, .resp-accordion-active {
   display: block;
 }
+
+
 
 .fh5co-tab-menu-icon {
   font-size: 20px;
@@ -1185,6 +1217,8 @@ a > img.fh5co-align-center {
     float: left;
     width: 100%;
   }
+
+
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-body,
 .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading {
@@ -1621,6 +1655,5 @@ position: relative;
 z-index: 555;
 }
 }
-
 
 

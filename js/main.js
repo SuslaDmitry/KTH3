@@ -139,7 +139,7 @@
 	    $('#fh5co-tab-feature-center').easyResponsiveTabs({
 	      type: 'default',
 	      width: 'auto',
-	      fit: true, 
+	      fit: true,
 	      inactive_bg: '',
 	      active_border_color: '',
 	      active_content_border_color: '',
