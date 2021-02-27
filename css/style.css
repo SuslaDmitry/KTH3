@@ -1417,6 +1417,7 @@ a > img.fh5co-align-center {
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
