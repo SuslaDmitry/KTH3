@@ -85,12 +85,12 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 50px;
+  font-size: 40px;
   line-height: 68px;
 }
 @media screen and (max-width: 768px) {
   h2, .h2 {
-    font-size: 40px;
+    font-size: 26px;
     line-height: 58px;
   }
 }
@@ -1426,7 +1426,7 @@ a > img.fh5co-align-center {
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
-    width: 41%;
+    width: 42.8%;
     float: left;
     padding: 0 20px 20px 30px;
     text-align: left;
