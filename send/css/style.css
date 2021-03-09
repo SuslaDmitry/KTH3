@@ -16,16 +16,16 @@ TYPOGRAPHY
   font-style: normal;
 }
 body {
-  font-family: "PT Mono", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   letter-spacing: .02em;
   line-height: 1.8em;
 
 }
 
 .bigicon {font-size: 3.5em;}
-h2{font-size: 32px;}
-h3{font-size: 24px;}
-h4{font-size: 16px; line-height: 1.4em;}
+h2{font-size: 62px;}
+h3{font-size: 32px;}
+h4{font-size: 20px; line-height: 1.4em;}
 
 
 p{

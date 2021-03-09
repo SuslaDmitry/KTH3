@@ -7,9 +7,9 @@
   font-style: normal;
 }
 body {
-  font-family: "PT Mono", sans-serif;
-  font-size: 16px;
-  line-height: 26px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  line-height: 32px;
   color: #7b7b7b;
   font-weight: 300;
   letter-spacing: .05em;
@@ -68,7 +68,7 @@ figure.fh5co-with-caption figcaption {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: 0 0 20px 0;
   padding: 0;
-  font-family: "PT Mono", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 400;
   color: #000000;
 }
@@ -754,7 +754,7 @@ padding-left: 60px;
 
 /* Buttons */
 .btn {
-  font-family: "PT Mono", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   border-bottom: none !important;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -971,7 +971,7 @@ padding-left: 60px;
 .fh5co-call-to-action .fh5co-call-to-action-text {
   font-size: 35px;
   line-height: 60px;
-  font-family: "PT Mono", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
 }
 .fh5co-call-to-action .btn {
@@ -1016,7 +1016,7 @@ padding-left: 60px;
   color: #006cff;
 }
 .fh5co-accordion .panel-heading .accordion-toggle:after {
-  font-family: 'themify';
+  font-family: 'Open Sans Condensed';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1035,7 +1035,7 @@ padding-left: 60px;
   color: #2e2e2e !important;
 }
 .fh5co-accordion .panel-heading.collapsed .accordion-toggle:after {
-  font-family: 'themify';
+  font-family: 'Open Sans Condensed';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1177,7 +1177,7 @@ a > img.fh5co-align-center {
 }
 
 .resp-tabs-list li {
-  font-family: "PT Mono", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.1em;
 }
 
@@ -1204,7 +1204,7 @@ a > img.fh5co-align-center {
 
 /* Pricing Tables */
 .fh5co-pricing-table-1 {
-  font-family: "PT Mono", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 @media screen and (max-width: 992px) {
   .fh5co-pricing-table-1 .fh5co-pricing-table-item {
@@ -1282,7 +1282,7 @@ a > img.fh5co-align-center {
 }
 
 .fh5co-link {
-  font-family: "PT Mono", sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .fh5co-link > i {
   margin-right: 5px;
