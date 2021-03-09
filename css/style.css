@@ -638,6 +638,7 @@ pre {
   }
 }
 
+
 .owl-carousel-posts .owl-controls .owl-nav .owl-next i,
 .owl-carousel-posts .owl-controls .owl-nav .owl-prev i,
 .owl-carousel-fullwidth .owl-controls .owl-nav .owl-next i,
@@ -1657,4 +1658,6 @@ z-index: 555;
 }
 }
 
-
+.resp-tabs-list hor_1 {
+line-height: 20em;
+}
